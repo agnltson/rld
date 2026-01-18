@@ -1,7 +1,7 @@
 # Rotating Led Display
-No hardware rotating led display.
+A rotating led display simulation.
 It's like the regular thing but without buying the hardware.
-We cheat a little with several rotating arms otherwise raylib refresh rate break everything.
+We are cheating by using several rotating arms otherwise raylib refresh rate breaks everything.
 
 ## Example
 
