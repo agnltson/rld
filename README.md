@@ -17,6 +17,8 @@ fn main() {
     disp.start();
 }
 ```
+This is the input:
 ![Input image](assets/link.png)
 
+Here is the result:
 ![Result](result.png)
