@@ -10,11 +10,7 @@ pub struct Rld {
 }
 
 impl Rld {
-    pub fn new(image_path: &str) -> Self {
-        let screen_width = 640;
-        let screen_height = 480;
-        let nb_arms = 35;
-        let nb_led = 40;
+    pub fn new(image_path: &str, screen_width: i32, screen_height: i32, nb_arms: i32, nb_led: u8) -> Self {
         let center = Vector2::new((screen_width/2) as f32, (screen_height/2) as f32);
         let arm_len = screen_height/2;
 
